@@ -1,7 +1,7 @@
 package com.ja1zinh0.agendaTelefonica.domain.phones;
 
 
-import com.ja1zinh0.agendaTelefonica.domain.user.User;
+import com.ja1zinh0.agendaTelefonica.domain.user.Users;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -26,5 +26,5 @@ public class Phone {
 
     @ManyToOne
     @JoinColumn(name = "user_id")
-    private User user;
+    private Users users;
 }

@@ -1,6 +1,6 @@
 package com.ja1zinh0.agendaTelefonica.domain.address;
 
-import com.ja1zinh0.agendaTelefonica.domain.user.User;
+import com.ja1zinh0.agendaTelefonica.domain.user.Users;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -29,5 +29,5 @@ public class Address {
 
     @ManyToOne
     @JoinColumn(name = "user_id")
-    private User user;
+    private Users users;
 }
