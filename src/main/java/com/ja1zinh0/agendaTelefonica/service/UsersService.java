@@ -2,6 +2,7 @@ package com.ja1zinh0.agendaTelefonica.service;
 
 import com.ja1zinh0.agendaTelefonica.domain.user.Users;
 import com.ja1zinh0.agendaTelefonica.domain.user.UsersRequestDTO;
+
 import com.ja1zinh0.agendaTelefonica.repositories.usersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,7 +17,7 @@ public class UsersService {
 
             newUsers.setName(data.name());
             newUsers.setEmail(data.email());
-            newUsers.setBirthDate(data.birthDate());
+            newUsers.setBirth_date(data.birth_date());
 
             repository.save(newUsers);
 

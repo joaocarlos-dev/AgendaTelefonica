@@ -24,6 +24,6 @@ public class Users {
     private UUID id;
 
     private String name;
-    private String birthDate;
+    private String birth_date;
     private String email;
 }
