@@ -2,7 +2,7 @@
 
 Este é um projeto de back-end construído com **Java + Spring Boot** que simula uma agenda telefônica. Ele inclui desde o desenho do banco de dados até a criação de entidades, migrations, rotas da API e toda a infraestrutura necessária para um back-end funcional e escalável.
 
-O projeto ainda está em desenvolvimento. Atualmente o projeto consta com o banco de dados, as rotas da api, entidades, controllers, services, migrations.
+O projeto foi feito com intuito de se familiarizar com as tecnologias e aplicar conceitos básicos de Spring, JPA, docker e se familiarizar com padrão de arquitetura MVC.
 
 ## Tecnologias utilizadas
 
